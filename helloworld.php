@@ -2,5 +2,5 @@
 
 echo "hello world";
 
-echo "try this shit";
+echo "try this poopie";
 ?>
