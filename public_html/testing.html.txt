@@ -2,7 +2,7 @@
 	<head>
 	</head>
 	<body>
-		renee sucks
+		renee is actually kinda cool
 	</body>
 
 </html>
