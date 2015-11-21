@@ -68,12 +68,12 @@
 							<div class="col-md-6 col-md-pull-1">
 								<div class="row">
 									<div class="col-xs-6">
-										<?php echo '<a href="profile.php?id='.$row['uid'].'"> <img src="images/'.$row['uid'].'.jpg" class="img-circle profilePics pull-right highlightName"></a>'; ?>
+										<?php echo '<a href="profile.php?id='.$row['uid'].'"> <img src="images/'.$row['uid'].'.jpg" class="img-circle profilePics pull-right"></a>'; ?>
 									</div>
 								<div class="col-xs-6">
 										<div class="row">				<!-- Name -->
 											<div class="col-xs-12">
-												<?php echo '<a href="profile.php?id='.$row['uid'].'">'. $row['lname'] . ', ' . $row['fname'] .'</a>';?>
+												<?php echo '<a class="highlightName" href="profile.php?id='.$row['uid'].'">'. $row['lname'] . ', ' . $row['fname'] .'</a>';?>
 											</div>
 										</div>
 										<div class="row">				<!-- School -->
