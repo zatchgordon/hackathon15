@@ -130,6 +130,7 @@ h3 {
 h4:hover, h4:active {
 	color: #013334; 
 }
+
 p {
 	font-family: 'ralewayregular', 'ralewaysemibold'; 
 	font-size: 15pt;
@@ -167,5 +168,9 @@ p {
 
 .profilePics{
 	width:40%;
+}
+
+a {
+	color: #006665;
 }
 

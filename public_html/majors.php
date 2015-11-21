@@ -19,6 +19,7 @@
 				?>
 				<div class="row">
 					<div class="col-xs-12">
+						<h3>Majors</h3>
 						<h3>
 							<?php
 							echo $currentLetter."<br>";	
