@@ -103,7 +103,7 @@ input[type=submit] {
 }
 
 .navi {
-	padding-top:5px;
+	
 	height: 50px;
 	background-color: #006665;
 }
@@ -113,11 +113,11 @@ h1 {
 	font-size: 40pt;
 }
 
-h2, h3, .mainNav {
+h2, h3, h4 {
 	font-family: 'ralewaysemibold', 'ralewayregular';
 }
 
-h1, h2, a {
+h1, h2, a, h4 {
 	color: #e5d9b9;
 }
 
@@ -128,7 +128,7 @@ h3 {
 p {
 	font-family: 'ralewayregular', 'ralewaysemibold'; 
 	font-size: 18pt;
-	padding-bottom: 4px;
+	padding-bottom: 0px;
 	color: #006665;
 }
 
@@ -143,10 +143,8 @@ a:hover, a:active {
 .mainNav {
 	background-color: #006665;
 	margin: 0px;
-	padding-bottom: 10px;
-	padding-top: 10px;
+	padding:  0px;
 	font-size: 15pt;
-	color: #e5d9b9;
 }
 
 .footer {
