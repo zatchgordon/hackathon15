@@ -27,29 +27,33 @@
 			</a>
 			<a href="schools.php">
 				<div class="col-md-2 text-center mainNav">
-					<p>Colleges</p>
+					<h4>Colleges</h4>
 				</div>
 			</a>
 			<a href="majors.php">
 				<div class="col-md-3 text-center mainNav">
-					<p>Majors</p>
+					<h4>Majors</h4>
 				</div>
 			</a>
 			<a href="about.html">
 				<div class="col-md-3 text-center mainNav">
-					<p>About</p>
+					<h4>About</h4>
 				</div>
 			</a>
 				<div class="col-md-3 mainNav">
-					<div class="row" style="padding-top:9px;">
-						<div class="col-xs-3">
-							<span class="glyphicon glyphicon-search searchIcon"></span>
+						<div class="row" style="padding-top:9px;">
+							<div class="col-xs-3">
+								<span class="glyphicon glyphicon-search searchIcon"></span>
+							</div>
+
+							<div class="col-xs-9 col-xs-pull-1 searchBar">
+							<input type="text" class="search" >
+							</div>
+
 						</div>
 
-						<div class="col-xs-9 col-xs-pull-1 searchBar">
-							<input type="text" class="search" >
-						</div>
-					</div>
 				</div>
+
+
 		</div>
 
