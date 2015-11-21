@@ -2,9 +2,6 @@
 	include_once "header.php";
 
 	global $db;
-	
-	$stmt = $db->prepare("Select u.fname, u.lname, sa.year, m.mname, cc.ccname from User u join S_AS sa on u.uid = sa.uid join School s on sa.sid = s.sid join Degree d on sa.did = d.did join Major m on sa.mid = m.mid join CC_AS ccas on ccas.uid = u.uid join Career_Cluster cc on cc.ccid = ccas.ccid ");
-	$stmt->execute();
 
 	$stmt = $db->prepare("SELECT mname FROM Major");
 	$stmt->execute();
@@ -36,8 +33,11 @@
 				<div class="row">
 					<div class="col-xs-12">
 						<p>
+
 							<?php
-							echo "&nbsp;&nbsp;&nbsp;".$row['mname']."<br>";
+							echo '<a href="search.php?query='.$row["mname"].'">';
+							echo $row['mname']."<br>";
+							echo '</a>';
 							$lastLetter = $currentLetter;
 							?>
 						</p>

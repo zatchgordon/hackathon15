@@ -56,7 +56,8 @@ body  {
 
 .searchBar {
 	border-bottom: 2px #e5d9b9 solid;
-	padding-bottom: 18px;
+	padding: 0;
+	margin-bottom: 9px;
 }
 
 .search {
