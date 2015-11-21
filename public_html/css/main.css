@@ -107,6 +107,10 @@ a:hover, a:active {
 	color: #013334;
 }
 
+.logo {
+	margin-left: 30px;
+}
+
 .mainNav {
 	background-color: #006665;
 	margin: 0px;
