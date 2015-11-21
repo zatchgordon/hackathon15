@@ -71,16 +71,6 @@ global $db;
 		}
 ?>
 
-	<div class="row footer">
-		<div class="col-xs-12">
-			<img src="images/logo.png" class="footerLogo" alt="logo">
-				<img class="pull-right" src="images/iconLinkedin.png" alt="LinkedIn logo">
-				<img class="pull-right" src="images/iconTwitter.png" alt="LinkedIn logo">
-				<img class="pull-right" src="images/iconFacebook.png" alt="LinkedIn logo">
-				<img class="pull-right" src="images/iconInsta.png" alt="LinkedIn logo">
-				<img class="pull-right" src="images/iconInsta.png" alt="LinkedIn logo">
-		</div>
-	</div>
 
 
 <?php

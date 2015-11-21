@@ -55,7 +55,7 @@
 ?>
 </div>
 	</section>
-	
+	<br><br>
 	<div class="row footer">
 		<div class="col-xs-12">
 			<img src="images/logo.png" class="footerLogo" alt="logo">
