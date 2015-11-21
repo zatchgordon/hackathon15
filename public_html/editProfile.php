@@ -38,7 +38,7 @@ global $db;
 
 						while ($row = $stmt->fetch(PDO::FETCH_ASSOC)){
 							if ($first){
-								echo $row['lname'].', '. $row['fname'];
+								echo "Last name: " . $row['lname'].', '. "First name: " . $row['fname'];
 								echo "<br>";
 								echo $row['dname'].' '. $row['mname'];
 								$about = $row['about'];

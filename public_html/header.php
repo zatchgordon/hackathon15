@@ -10,7 +10,9 @@
 
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
-
+		
+		<link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+		
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="js/bootstrap.min.js" ></script>
 		<link rel="stylesheet" href="css/main.css">

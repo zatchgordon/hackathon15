@@ -88,6 +88,12 @@ input[type=submit] {
 	font-size: 14pt;
 }
 
+input:focus {
+	color: #e4dab7;
+	font-family: 'ralewaybold', 'ralewaysemibold', 'ralewayregular';
+	font-size: 14pt;
+}
+
 ::-webkit-input-placeholder {
 	color: #e5d9b9;
 	font-family: 'ralewaysemibold', 'ralewayregular';
@@ -154,6 +160,7 @@ p {
 	bottom:0;
 	width:102%;
 	background-color: #006665;
+	margin-top: 40px;
 }
 
 .footer img {
@@ -176,5 +183,11 @@ a {
 
 a:hover {
 	text-decoration: none;
+}
+
+.highlightName {
+	color: #013334; 
+	font-size: 16pt;
+
 }
 

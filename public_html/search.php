@@ -27,7 +27,7 @@
 							<div class="col-md-6 col-md-push-1">
 								<div class="row">
 									<div class="col-xs-6">
-										<?php echo '<a href="profile.php?id='.$row['uid'].'"> <img src="images/'.$row['uid'].'.jpg" class="img-circle profilePics pull-right"> </a>'; ?>
+										<?php echo '<a href="profile.php?id='.$row['uid'].'"> <img src="images/'.$row['uid'].'.jpg" class="img-circle profilePics pull-right highlightName"> </a>'; ?>
 									</div>
 									<div class="col-xs-6">
 										<div class="row">				<!-- Name -->
@@ -68,7 +68,7 @@
 							<div class="col-md-6 col-md-pull-1">
 								<div class="row">
 									<div class="col-xs-6">
-										<?php echo '<a href="profile.php?id='.$row['uid'].'"> <img src="images/'.$row['uid'].'.jpg" class="img-circle profilePics pull-right"></a>'; ?>
+										<?php echo '<a href="profile.php?id='.$row['uid'].'"> <img src="images/'.$row['uid'].'.jpg" class="img-circle profilePics pull-right highlightName"></a>'; ?>
 									</div>
 								<div class="col-xs-6">
 										<div class="row">				<!-- Name -->
