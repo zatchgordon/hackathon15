@@ -19,7 +19,7 @@
 							<h2 class="drop">Turn the Page on Your Career</h2>
 						</div>
 						<div class="col-xs-1 col-xs-pull-1">
-							<img src="images/logo.png" alt="logo" style="margin-left:24px;" class="visible-lg visible-md">
+							<img src="images/logo.png" alt="logo" style="margin-left:30px;" class="visible-lg visible-md">
 						</div>
 					</div>
 				</div>
