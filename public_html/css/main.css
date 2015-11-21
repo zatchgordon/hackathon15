@@ -35,7 +35,8 @@
 }
 
 body  {
-	padding: 0 20px;
+	padding: 0 ;
+	margin:0;
 }
 
 .headerBackground {
@@ -74,7 +75,9 @@ body  {
 }
 
 .navi {
+	padding-top:5px;
 	height: 50px;
+	background-color: #006665;
 }
 
 h1 {
