@@ -11,6 +11,10 @@
 
 	$results = array();
 	$ct = 1;
+	echo "<br><br><br>";
+	echo "<div class='row'><div class='col-xs-12 col-xs-push-2'>";
+	echo "<h3> Search Results For: ". $_GET['query'] ."  </h3>";
+	echo "</div></div>";
 	while ($row = $stmt->fetch(PDO::FETCH_ASSOC)){
 
 				if(in_array($row['uid'], $results)){
@@ -20,15 +24,15 @@
 					if($ct%2 != 0){
 						?>
 						<div class="row">
-							<div class="col-md-6">
+							<div class="col-md-6 col-md-push-1">
 								<div class="row">
 									<div class="col-xs-6">
-										<?php echo '<img src="images/'.$row['uid'].'.jpg">'; ?>
+										<?php echo '<a href="profile.php?id='.$row['uid'].'"> <img src="images/'.$row['uid'].'.jpg" class="img-circle profilePics pull-right"> </a>'; ?>
 									</div>
 									<div class="col-xs-6">
 										<div class="row">				<!-- Name -->
 											<div class="col-xs-12">
-												<?php echo $row['lname'] . ', ' . $row['fname'];?>
+												<?php echo '<a href="profile.php?id='.$row['uid'].'">'. $row['lname'] . ', ' . $row['fname'] . '</a>';?>
 											</div>
 										</div>
 										<div class="row">				<!-- School -->
@@ -36,16 +40,17 @@
 												<?php echo $row['sname'];?>
 											</div>
 										</div>
+																				<div class="row">				<!-- Degree -->
+											<div class="col-xs-12">
+												<?php echo $row['dname'];?>
+											</div>
+										</div>
 										<div class="row">				<!-- Major -->
 											<div class="col-xs-12">
 												<?php echo $row['mname'];?>
 											</div>
 										</div>
-										<div class="row">				<!-- Degree -->
-											<div class="col-xs-12">
-												<?php echo $row['dname'];?>
-											</div>
-										</div>
+
 									</div>
 								</div>
 							</div>	
@@ -60,15 +65,15 @@
 					}
 					else{
 						?>
-							<div class="col-md-6">
+							<div class="col-md-6 col-md-pull-1">
 								<div class="row">
 									<div class="col-xs-6">
-										<?php echo '<img src="images/'.$row['uid'].'.jpg">'; ?>
+										<?php echo '<a href="profile.php?id='.$row['uid'].'"> <img src="images/'.$row['uid'].'.jpg" class="img-circle profilePics pull-right"></a>'; ?>
 									</div>
 								<div class="col-xs-6">
 										<div class="row">				<!-- Name -->
 											<div class="col-xs-12">
-												<?php echo $row['lname'] . ', ' . $row['fname'];?>
+												<?php echo '<a href="profile.php?id='.$row['uid'].'">'. $row['lname'] . ', ' . $row['fname'] .'</a>';?>
 											</div>
 										</div>
 										<div class="row">				<!-- School -->
@@ -76,28 +81,30 @@
 												<?php echo $row['sname'];?>
 											</div>
 										</div>
+																				<div class="row">				<!-- Degree -->
+											<div class="col-xs-12">
+												<?php echo $row['dname'];?>
+											</div>
+										</div>
 										<div class="row">				<!-- Major -->
 											<div class="col-xs-12">
 												<?php echo $row['mname'];?>
 											</div>
 										</div>
-										<div class="row">				<!-- Degree -->
-											<div class="col-xs-12">
-												<?php echo $row['dname'];?>
-											</div>
-										</div>
+
 								</div>
 							</div>
 							
 							</div>
 						</div>
+						<br><br>
 						<?php
 
-
+						
 
 					}
 
-
+						$ct++;
 					array_push($results, $row['uid']);
 				}
 
