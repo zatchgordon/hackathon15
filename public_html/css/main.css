@@ -1,5 +1,41 @@
-﻿.centered {
+﻿@font-face {
+    font-family: 'ralewaybold';
+    src: url('fonts/raleway-bold-webfont.eot');
+    src: url('fonts/raleway-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/raleway-bold-webfont.woff2') format('woff2'),
+         url('fonts/raleway-bold-webfont.woff') format('woff'),
+         url('fonts/raleway-bold-webfont.ttf') format('truetype'),
+         url('fonts/raleway-bold-webfont.svg#ralewaybold') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
+@font-face {
+    font-family: 'ralewayregular';
+    src: url('fonts/raleway-regular-webfont.eot');
+    src: url('fonts/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/raleway-regular-webfont.woff2') format('woff2'),
+         url('fonts/raleway-regular-webfont.woff') format('woff'),
+         url('fonts/raleway-regular-webfont.ttf') format('truetype'),
+         url('fonts/raleway-regular-webfont.svg#ralewayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'ralewaysemibold';
+    src: url('fonts/raleway-semibold-webfont.eot');
+    src: url('fonts/raleway-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/raleway-semibold-webfont.woff2') format('woff2'),
+         url('fonts/raleway-semibold-webfont.woff') format('woff'),
+         url('fonts/raleway-semibold-webfont.ttf') format('truetype'),
+         url('fonts/raleway-semibold-webfont.svg#ralewaysemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body  {
+	padding: 0 20px;
 }
 
 .headerBackground {
@@ -31,18 +67,35 @@
     padding: 0;
     background: none;
 }
+
 .searchIcon{
 	color: #e5d9b9 ;
 	font-size: 14pt;
 }
 
 .navi {
-	
 	height: 50px;
+}
+
+h1 {
+	font-family: 'ralewaybold', 'ralewaysemibold', 'ralewayregular';
+}
+
+h2, h3, .mainNav {
+	font-family: 'ralewaysemibold', 'ralewayregular';
 }
 
 h1, h2, a {
 	color: #e5d9b9;
+}
+
+h3 {
+	color: #013334; 
+}
+
+p {
+	font-family: 'ralewayregular', 'ralewaysemibold'; 
+	font-size: 20pt;
 }
 
 a:hover, a:active {
@@ -53,6 +106,19 @@ a:hover, a:active {
 	background-color: #006665;
 	margin: 0px;
 	padding-bottom: 10px;
+	padding-top: 10px;
+	font-size: 15pt;
+}
+
+.footer {
+	background-color: #006665;
+	margin-top: 40px;
+}
+
+.footer img {
+	width: 50px;
+	padding: 10px;
+	margin-left: 10px;
 }
 
 
