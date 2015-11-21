@@ -22,7 +22,7 @@
 		<div class="row navi">
 			<a href="index.php">
 				<div class="col-md-1 text-center mainNav visible-md visible-lg">
-					<img src="images/logo.png" width="39px" style="margin-top:-5px; padding-bottom:3px;">
+					<img src="images/logo.png" width="35px">
 				</div>
 			</a>
 			<a href="schools.php">

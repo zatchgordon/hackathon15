@@ -174,3 +174,7 @@ a {
 	color: #006665;
 }
 
+a:hover {
+	text-decoration: none;
+}
+
