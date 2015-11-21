@@ -82,6 +82,7 @@ body  {
 
 h1 {
 	font-family: 'ralewaybold', 'ralewaysemibold', 'ralewayregular';
+	font-size: 40pt;
 }
 
 h2, h3, .mainNav {
@@ -98,7 +99,8 @@ h3 {
 
 p {
 	font-family: 'ralewayregular', 'ralewaysemibold'; 
-	font-size: 20pt;
+	font-size: 18pt;
+	padding-bottom: 4px;
 }
 
 a:hover, a:active {
@@ -114,8 +116,10 @@ a:hover, a:active {
 }
 
 .footer {
+	position: fixed;
+	bottom:0;
+	width:102%;
 	background-color: #006665;
-	margin-top: 40px;
 }
 
 .footer img {
@@ -124,7 +128,9 @@ a:hover, a:active {
 	margin-left: 10px;
 }
 
-
+.drop{
+	text-shadow: 2px 2px 4px rgba(150,150,150,1);
+}
 
 
 

@@ -10,15 +10,100 @@
 	$stmt->execute();
 
 	$results = array();
+	$ct = 1;
 	while ($row = $stmt->fetch(PDO::FETCH_ASSOC)){
 
 				if(in_array($row['uid'], $results)){
 
 				}else{
-					echo $row['lname'].', '. $row['fname'];
-					echo "<br>";
+
+					if($ct%2 != 0){
+						?>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="row">
+									<div class="col-xs-6">
+										<?php echo '<img src="images/'.$row['uid'].'.jpg">'; ?>
+									</div>
+									<div class="col-xs-6">
+										<div class="row">				<!-- Name -->
+											<div class="col-xs-12">
+												<?php echo $row['lname'] . ', ' . $row['fname'];?>
+											</div>
+										</div>
+										<div class="row">				<!-- School -->
+											<div class="col-xs-12">
+												<?php echo $row['sname'];?>
+											</div>
+										</div>
+										<div class="row">				<!-- Major -->
+											<div class="col-xs-12">
+												<?php echo $row['mname'];?>
+											</div>
+										</div>
+										<div class="row">				<!-- Degree -->
+											<div class="col-xs-12">
+												<?php echo $row['dname'];?>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>	
+
+
+
+						<?php
+
+
+
+
+					}
+					else{
+						?>
+							<div class="col-md-6">
+								<div class="row">
+									<div class="col-xs-6">
+										<?php echo '<img src="images/'.$row['uid'].'.jpg">'; ?>
+									</div>
+								<div class="col-xs-6">
+										<div class="row">				<!-- Name -->
+											<div class="col-xs-12">
+												<?php echo $row['lname'] . ', ' . $row['fname'];?>
+											</div>
+										</div>
+										<div class="row">				<!-- School -->
+											<div class="col-xs-12">
+												<?php echo $row['sname'];?>
+											</div>
+										</div>
+										<div class="row">				<!-- Major -->
+											<div class="col-xs-12">
+												<?php echo $row['mname'];?>
+											</div>
+										</div>
+										<div class="row">				<!-- Degree -->
+											<div class="col-xs-12">
+												<?php echo $row['dname'];?>
+											</div>
+										</div>
+								</div>
+							</div>
+							
+							</div>
+						</div>
+						<?php
+
+
+
+					}
+
+
 					array_push($results, $row['uid']);
 				}
+
+
+
+					
 	}
 
 

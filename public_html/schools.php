@@ -1,5 +1,10 @@
 <?php
 	include_once "header.php";
+	?>
+	<section>
+
+	<?php
+
 
 	global $db;
 
@@ -50,3 +55,5 @@
 
 
 ?>
+
+	</section>

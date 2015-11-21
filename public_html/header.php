@@ -4,6 +4,7 @@
 <html>
 	<head>
 		<script src="js/jquery.js" ></script>
+		<script src="js/main.js" ></script>
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 
@@ -21,12 +22,12 @@
 		<div class="row navi">
 						<a href="index.php">
 				<div class="col-md-1 text-center mainNav visible-md visible-lg">
-					<img src="images/logo.png" width="50%" style="margin-top:-5px; padding-bottom:3px;">
+					<img src="images/logo.png" width="39px" style="margin-top:-5px; padding-bottom:3px;">
 				</div>
 			</a>
 			<a href="schools.php">
 				<div class="col-md-2 text-center mainNav">
-					<p>College</p>
+					<p>Colleges</p>
 				</div>
 			</a>
 			<a href="majors.php">
@@ -56,3 +57,5 @@
 
 		</div>
 
+<section class="row">
+	<div class="col-xs-12">
