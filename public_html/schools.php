@@ -17,11 +17,35 @@
 			$currentLetter = ucfirst(substr($row['sname'], 0, 1));
 
 			if ($currentLetter != $lastLetter){
-				echo $currentLetter."<br>";	
+			?>
+				<div class="row">
+					<div class="col-xs-12">
+						<h3>
+							<?php
+							echo $currentLetter."<br>";	
+							?>
+						</h3>
+					</div>
+
+				</div>
+			<?php
+				
 			}
 
-			echo "&nbsp;&nbsp;&nbsp;".$row['sname']."<br>";
-			$lastLetter = $currentLetter;
+			?>
+				<div class="row">
+					<div class="col-xs-12">
+						<p>
+							<?php
+							echo "&nbsp;&nbsp;&nbsp;".$row['sname']."<br>";
+							$lastLetter = $currentLetter;
+							?>
+						</p>
+					</div>
+
+				</div>
+			<?php
+	
 	}
 
 
