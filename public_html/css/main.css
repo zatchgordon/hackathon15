@@ -92,7 +92,9 @@ input[type=submit] {
 	color: #e5d9b9;
 	font-family: 'ralewaysemibold', 'ralewayregular';
 }
-
+.email {
+	margin-right: 83px;
+}
 .signUp {
 	padding-right: 20px;
 }
@@ -103,8 +105,7 @@ input[type=submit] {
 }
 
 .navi {
-	
-	height: 50px;
+	height: 55px;
 	background-color: #006665;
 }
 
@@ -123,17 +124,17 @@ h1, h2, a, h4 {
 
 h3 {
 	color: #013334; 
+	font-size: 20pt;
 }
 
+h4:hover, h4:active {
+	color: #013334; 
+}
 p {
 	font-family: 'ralewayregular', 'ralewaysemibold'; 
-	font-size: 18pt;
+	font-size: 15pt;
 	padding-bottom: 0px;
 	color: #006665;
-}
-
-a:hover, a:active {
-	color: #013334;
 }
 
 .logo {
@@ -143,8 +144,8 @@ a:hover, a:active {
 .mainNav {
 	background-color: #006665;
 	margin: 0px;
-	padding:  0px;
 	font-size: 15pt;
+	padding-top: 5px;
 }
 
 .footer {
