@@ -39,11 +39,15 @@ body  {
 	margin:0;
 }
 
-.headerBackground {
+.headerBackground, headerBackgroundAbout {
 	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/workTable.jpg') no-repeat;
 	width: 100%;
 	display: table;
 	background-size: cover;
+}
+
+.headerBackgroundAbout {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/about.jpg') no-repeat;
 }
 
 .icon, .title {
@@ -67,6 +71,30 @@ body  {
     margin: 0;
     padding: 0;
     background: none;
+}
+
+input[type=text], input[type=password] {
+	background: none;
+	border: none;
+	border-bottom: 2px #e5d9b9 solid;
+	padding: 5px;
+}
+
+input[type=submit] {
+	font-family: 'ralewaybold', 'ralewaysemibold', 'ralewayregular';
+	color: #e5d9b9;
+	background-color: transparent;
+	border: none;
+	font-size: 14pt;
+}
+
+::-webkit-input-placeholder {
+	color: #e5d9b9;
+	font-family: 'ralewaysemibold', 'ralewayregular';
+}
+
+.signUp {
+	padding-right: 20px;
 }
 
 .searchIcon{
@@ -101,6 +129,7 @@ p {
 	font-family: 'ralewayregular', 'ralewaysemibold'; 
 	font-size: 18pt;
 	padding-bottom: 4px;
+	color: #006665;
 }
 
 a:hover, a:active {
@@ -117,6 +146,7 @@ a:hover, a:active {
 	padding-bottom: 10px;
 	padding-top: 10px;
 	font-size: 15pt;
+	color: #e5d9b9;
 }
 
 .footer {

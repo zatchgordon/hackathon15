@@ -1,0 +1,286 @@
+	
+INSERT INTO Career_Cluster (ccname) values ('Agriculture, Food and Natural Resources'); 
+INSERT INTO Career_Cluster (ccname) values ('Architecture and Construction'); 
+INSERT INTO Career_Cluster (ccname) values ('Arts, AV Technology and Communications'); 
+INSERT INTO Career_Cluster (ccname) values ('Business Management and Administration'); 
+INSERT INTO Career_Cluster (ccname) values ('Education and Training'); 
+INSERT INTO Career_Cluster (ccname) values ('Finance'); 
+INSERT INTO Career_Cluster (ccname) values ('Government and Public Administration'); 
+INSERT INTO Career_Cluster (ccname) values ('Health Science'); 
+INSERT INTO Career_Cluster (ccname) values ('Hospitality and Tourism'); 
+INSERT INTO Career_Cluster (ccname) values ('Human Services'); 
+INSERT INTO Career_Cluster (ccname) values ('Information Technology'); 
+INSERT INTO Career_Cluster (ccname) values ('Law, Public Safety, Corrections and Security'); 
+INSERT INTO Career_Cluster (ccname) values ('Manufacturing'); 
+INSERT INTO Career_Cluster (ccname) values ('Marketing, Sales, and Service'); 
+INSERT INTO Career_Cluster (ccname) values ('Science, Technology, Engineering and Mathematics'); 
+INSERT INTO Career_Cluster (ccname) values ('Transportation, Distribution and Logistics'); 
+
+		
+INSERT INTO Degree (dname) values ('A.A.'); 
+INSERT INTO Degree (dname) values ('A.S.'); 
+INSERT INTO Degree (dname) values ('A.A.S.');
+INSERT INTO Degree (dname) values ('A.E.');
+INSERT INTO Degree (dname) values ('A.A.A.');
+INSERT INTO Degree (dname) values ('A.P.S.');
+INSERT INTO Degree (dname) values ('B.A.');
+INSERT INTO Degree (dname) values ('B.S.'); 
+INSERT INTO Degree (dname) values ('B.F.A.');
+INSERT INTO Degree (dname) values ('B.B.A');
+INSERT INTO Degree (dname) values ('B.Arch.');
+INSERT INTO Degree (dname) values ('A.A.S.');
+INSERT INTO Degree (dname) values ('M.A.'); 
+INSERT INTO Degree (dname) values ('M.S.'); 
+INSERT INTO Degree (dname) values ('M.Res.'); 
+INSERT INTO Degree (dname) values ('M.Phil.'); 
+INSERT INTO Degree (dname) values ('LL.M.'); 
+INSERT INTO Degree (dname) values ('M.B.A.'); 
+INSERT INTO Degree (dname) values ('M.D.'); 
+INSERT INTO Degree (dname) values ('Ed.D.'); 
+INSERT INTO Degree (dname) values ('J.D.');  
+		
+
+
+INSERT INTO School (sname) values ('Winthrop University');
+INSERT INTO School (sname) values ('College of South Carolina'); 
+INSERT INTO School (sname) values ('South Carolina State University'); 
+INSERT INTO School (sname) values ('Coastal Carolina University'); 
+INSERT INTO School (sname) values ('University of North Carolina'); 
+INSERT INTO School (sname) values ('Converse College'); 
+INSERT INTO School (sname) values ('Wofford College'); 
+INSERT INTO School (sname) values ('University of Georgia'); 
+INSERT INTO School (sname) values ('University of California, Los Angeles'); 
+INSERT INTO School (sname) values ('Florida State University'); 
+INSERT INTO School (sname) values ('University of Florida'); 
+INSERT INTO School (sname) values ('North Carolina State University'); 
+INSERT INTO School (sname) values ('George Mason University'); 
+INSERT INTO School (sname) values ('Univeristy of Alabama'); 
+INSERT INTO School (sname) values ('Oregon State University'); 
+INSERT INTO School (sname) values ('Savannah College of Art and Design'); 
+	
+
+
+INSERT INTO Employer (ename) values ('Wells Fargo');
+INSERT INTO Employer (ename) values ('Winthrop University');
+INSERT INTO Employer (ename) values ('Google');
+INSERT INTO Employer (ename) values ('Facebook');
+INSERT INTO Employer (ename) values ('Apple');
+INSERT INTO Employer (ename) values ('Sony');
+INSERT INTO Employer (ename) values ('Disney');
+INSERT INTO Employer (ename) values ('Pixar');
+INSERT INTO Employer (ename) values ('South State Bank');
+INSERT INTO Employer (ename) values ('Ralph Lauren');
+INSERT INTO Employer (ename) values ('Microsoft');
+INSERT INTO Employer (ename) values ('Rolex');
+INSERT INTO Employer (ename) values ('Logitech');
+INSERT INTO Employer (ename) values ('Purina');
+INSERT INTO Employer (ename) values ('Bank of America');
+INSERT INTO Employer (ename) values ('Panthers Football Team');
+INSERT INTO Employer (ename) values ('Uber');
+INSERT INTO Employer (ename) values ('Kraft');
+INSERT INTO Employer (ename) values ('Pentagon');
+INSERT INTO Employer (ename) values ('Indian Hook Elementary School');
+INSERT INTO Employer (ename) values ('North Western High School');
+INSERT INTO Employer (ename) values ('Clover High School');
+INSERT INTO Employer (ename) values ('SPAWAR');
+INSERT INTO Employer (ename) values ('United Airlines');
+INSERT INTO Employer (ename) values ('Hursay Elementary School');
+INSERT INTO Employer (ename) values ('Southwestern Airlines');
+INSERT INTO Employer (ename) values ('Delta Airlines');
+INSERT INTO Employer (ename) values ('Jet Blue Airlines');
+INSERT INTO Employer (ename) values ('Virgin Airlines');
+INSERT INTO Employer (ename) values ('Toshiba');
+INSERT INTO Employer (ename) values ('Best Buy');
+INSERT INTO Employer (ename) values ('Nike');
+INSERT INTO Employer (ename) values ('Adidas');
+	
+
+
+INSERT INTO Job (jname) values ('Front End Designer');
+INSERT INTO Job (jname) values ('Back End Designer');
+INSERT INTO Job (jname) values ('Marketing');
+INSERT INTO Job (jname) values ('Web Application');
+INSERT INTO Job (jname) values ('Teacher');
+INSERT INTO Job (jname) values ('Food Artist');
+INSERT INTO Job (jname) values ('Professor');
+INSERT INTO Job (jname) values ('Pilot');
+INSERT INTO Job (jname) values ('Electrician');
+INSERT INTO Job (jname) values ('Database Developer');
+INSERT INTO Job (jname) values ('CEO');
+INSERT INTO Job (jname) values ('Graphic Designer');
+
+
+
+INSERT INTO Major (mname) values ('Digital Information Design');
+INSERT INTO Major (mname) values ('Theater');
+INSERT INTO Major (mname) values ('Business');
+INSERT INTO Major (mname) values ('Architecture');
+INSERT INTO Major (mname) values ('Computer Science');
+INSERT INTO Major (mname) values ('Information Systems');
+INSERT INTO Major (mname) values ('Culinary Arts');
+INSERT INTO Major (mname) values ('Chemistry');
+INSERT INTO Major (mname) values ('Biology');
+INSERT INTO Major (mname) values ('Sports Management');
+INSERT INTO Major (mname) values ('Accounting');
+INSERT INTO Major (mname) values ('Electrical Engineering');
+INSERT INTO Major (mname) values ('Civil Engineering');
+INSERT INTO Major (mname) values ('Education');
+INSERT INTO Major (mname) values ('Childhood Education');
+INSERT INTO Major (mname) values ('Graphic Design');
+INSERT INTO Major (mname) values ('History');
+INSERT INTO Major (mname) values ('English');
+INSERT INTO Major (mname) values ('Criminal Justice');
+INSERT INTO Major (mname) values ('Nursing');
+INSERT INTO Major (mname) values ('Psychology');
+INSERT INTO Major (mname) values ('Sociology');
+
+
+
+
+
+INSERT INTO User (fname, lname, email, salt, hash, about) values ('Debbie', 'Flanman', 'flanners@gmail.com ', '3359828965509f9955b27f8.02275073', '13a91709c6904390b41f68b49106a880472e58530c189e122918c977eb743c4f', '');
+INSERT INTO User (fname, lname, email, salt, hash, about) values ('Heather', 'Baussman', 'MsBoss@aol.com', '3359828965509f9955b27f8.02275073', '13a91709c6904390b41f68b49106a880472e58530c189e122918c977eb743c4f', '');
+INSERT INTO User (fname, lname, email, salt, hash, about) values ('Ali', 'Vanderwater', 'IceQueen@yahoo.com', '3359828965509f9955b27f8.02275073', '13a91709c6904390b41f68b49106a880472e58530c189e122918c977eb743c4f', '');
+INSERT INTO User (fname, lname, email, salt, hash, about) values ('Claire', 'Eclair', 'SweetiePie@wellsfargo.com', '3359828965509f9955b27f8.02275073', '13a91709c6904390b41f68b49106a880472e58530c189e122918c977eb743c4f', '');
+INSERT INTO User (fname, lname, email, salt, hash, about) values ('Trevor', 'Kimbrell', 'Bells@water.com', '3359828965509f9955b27f8.02275073', '13a91709c6904390b41f68b49106a880472e58530c189e122918c977eb743c4f', '');
+INSERT INTO User (fname, lname, email, salt, hash, about) values ('Tyler', 'Hill', 'Jonah@hill.com', '3359828965509f9955b27f8.02275073', '13a91709c6904390b41f68b49106a880472e58530c189e122918c977eb743c4f', '');
+INSERT INTO User (fname, lname, email, salt, hash, about) values ('Caleb', 'Besmer', 'IloveProgramming@ubuntu.org', '3359828965509f9955b27f8.02275073', '13a91709c6904390b41f68b49106a880472e58530c189e122918c977eb743c4f', '');
+INSERT INTO User (fname, lname, email, salt, hash, about) values ('Sarah', 'Lutz', 'S.Lutz@gmail.com', '3359828965509f9955b27f8.02275073', '13a91709c6904390b41f68b49106a880472e58530c189e122918c977eb743c4f', '');
+INSERT INTO User (fname, lname, email, salt, hash, about) values ('Lisa', 'OBrien', 'Obie14@gmail.com', '3359828965509f9955b27f8.02275073', '13a91709c6904390b41f68b49106a880472e58530c189e122918c977eb743c4f', '');
+INSERT INTO User (fname, lname, email, salt, hash, about) values ('Christy', 'Jones', 'anonymous@gmail.com', '3359828965509f9955b27f8.02275073', '13a91709c6904390b41f68b49106a880472e58530c189e122918c977eb743c4f', '');
+INSERT INTO User (fname, lname, email, salt, hash, about) values ('Wayne', 'Bruce', 'IAmNotBatman@gmail.com', '3359828965509f9955b27f8.02275073', '13a91709c6904390b41f68b49106a880472e58530c189e122918c977eb743c4f', '');
+INSERT INTO User (fname, lname, email, salt, hash, about) values ('Luana', 'Bismark', 'KingoftheJuice@israel.com', '3359828965509f9955b27f8.02275073', '13a91709c6904390b41f68b49106a880472e58530c189e122918c977eb743c4f', '');
+INSERT INTO User (fname, lname, email, salt, hash, about) values ('La-a', 'Gordon', 'tryAgain@yahoo.com', '3359828965509f9955b27f8.02275073', '13a91709c6904390b41f68b49106a880472e58530c189e122918c977eb743c4f', '');
+INSERT INTO User (fname, lname, email, salt, hash, about) values ('Laquisha', 'Boneapart', 'Shorty123@aol.com', '3359828965509f9955b27f8.02275073', '13a91709c6904390b41f68b49106a880472e58530c189e122918c977eb743c4f', '');
+INSERT INTO User (fname, lname, email, salt, hash, about) values ('Barbie', 'Flanders', 'ILoveKen@barbie.com', '3359828965509f9955b27f8.02275073', '13a91709c6904390b41f68b49106a880472e58530c189e122918c977eb743c4f', '');
+INSERT INTO User (fname, lname, email, salt, hash, about) values ('Ken', 'Flanders', 'ILoveBarbie@barbie.com', '3359828965509f9955b27f8.02275073', '13a91709c6904390b41f68b49106a880472e58530c189e122918c977eb743c4f', '');
+INSERT INTO User (fname, lname, email, salt, hash, about) values ('Anna', 'Wilson', 'SladesDaughter@DC.com', '3359828965509f9955b27f8.02275073', '13a91709c6904390b41f68b49106a880472e58530c189e122918c977eb743c4f', '');
+INSERT INTO User (fname, lname, email, salt, hash, about) values ('Ben', 'Dover', 'YouRight@gmail.com', '3359828965509f9955b27f8.02275073', '13a91709c6904390b41f68b49106a880472e58530c189e122918c977eb743c4f', '');
+INSERT INTO User (fname, lname, email, salt, hash, about) values ('Sean', 'Oqueefe', 'TheVowelsAreSilent@facebook.com', '3359828965509f9955b27f8.02275073', '13a91709c6904390b41f68b49106a880472e58530c189e122918c977eb743c4f');
+INSERT INTO User (fname, lname, email, salt, hash, about) values ('Charlotte', 'Harris', 'StickItMovie@imdb.com', '3359828965509f9955b27f8.02275073', '13a91709c6904390b41f68b49106a880472e58530c189e122918c977eb743c4f', '');
+INSERT INTO User (fname, lname, email, salt, hash, about) values ('North', 'West', 'IHateMyDad@college.com', '3359828965509f9955b27f8.02275073', '13a91709c6904390b41f68b49106a880472e58530c189e122918c977eb743c4f', '');
+INSERT INTO User (fname, lname, email, salt, hash, about) values ('Lily', 'Pad', 'Thanks@thanks.com', '3359828965509f9955b27f8.02275073', '13a91709c6904390b41f68b49106a880472e58530c189e122918c977eb743c4f', '');
+
+
+
+
+
+
+  
+
+Career Cluster: 16
+Degree: 19 (no 11)
+School: 15
+Employer: 32
+Job: 12
+User: 22
+Major: 22
+
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 22, 25, 12, 2015, 2015, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 21, 32, 11, 1993, 2015, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 20, 22, 10, 2014, 2014, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 19, 31, 9, 2013, 2104, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 17, 30, 8, 2000, 2015, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 16, 29, 7, 2002, 2005, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 15, 28, 6, 2000, 2006, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 14, 27, 5, 2004, 2010, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 13, 26, 4, 2010, 2015, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 12, 25, 3, 2009, 2010, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 11, 24, 2, 2014, 2015, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 10, 23, 1, 2015, 2015, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 9, 22, 4, 2013, 2015, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 8, 21, 6, 1990, 1991, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 7, 20, 11, 2007, 2015, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 6, 19, 6, 2013, 2015, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 5, 18, 3, 2015, 2015, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 4, 17, 7, 2014, 2015, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 3, 16, 9, 2015, 2015, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 2, 15, 10, 2015, 2015, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 1, 14, 5, 2002, 2004, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 3, 13, 8, 2009, 2015, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 5, 11, 4, 2014, 2015, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 7, 10, 4, 2015, 2015, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 8, 9, 4, 2015, 2015, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 19, 8, 4, 2009, 2015, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 22, 7, 4, 2013, 2015, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 19, 6, 4, 2012, 2015, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 10, 5, 4, 2012, 2015, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 8, 4, 4, 2015, 2015, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 6, 3, 4, 2014, 2015, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 6, 2, 4, 2013, 2015, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 8, 1, 4, 2013, 2015, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 10, 22, 4, 2013, 2015, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 11, 30, 4, 2001, 2015, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 19, 14, 4, 2015, 2015, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 7, 2, 4, 2015, 2015, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 2, 6, 4, 2015, 2015, '');
+INSERT INTO E_AS (uid, eid, jid, start, end, description) values ( 6, 3, 4, 2015, 2015, '');
+
+INSERT INTO S_AS (uid, sid, did, mid, year) values (1, 3, 20, 15, 2007);
+INSERT INTO S_AS (uid, sid, did, mid, year) values (2, 15, 19, 16, 2016);
+INSERT INTO S_AS (uid, sid, did, mid, year) values (3, 14, 5, 17, 1995);
+INSERT INTO S_AS (uid, sid, did, mid, year) values (4, 13, 7, 18, 1993);
+INSERT INTO S_AS (uid, sid, did, mid, year) values (5, 12, 8, 19, 1991);
+INSERT INTO S_AS (uid, sid, did, mid, year) values (6, 11, 18, 20, 1998);
+INSERT INTO S_AS (uid, sid, did, mid, year) values (7, 10, 17, 21, 2000);
+INSERT INTO S_AS (uid, sid, did, mid, year) values (8, 9, 16, 22, 2005);
+INSERT INTO S_AS (uid, sid, did, mid, year) values (9, 8, 15, 1, 2001);
+INSERT INTO S_AS (uid, sid, did, mid, year) values (10, 7, 14, 2, 2009);
+INSERT INTO S_AS (uid, sid, did, mid, year) values (11, 6, 13, 3, 2007);
+INSERT INTO S_AS (uid, sid, did, mid, year) values (12, 5, 12, 4, 2007);
+INSERT INTO S_AS (uid, sid, did, mid, year) values (13, 4, 10, 5, 2014);
+INSERT INTO S_AS (uid, sid, did, mid, year) values (14, 3, 9, 6, 2001);
+INSERT INTO S_AS (uid, sid, did, mid, year) values (15, 2, 8, 7, 2003);
+INSERT INTO S_AS (uid, sid, did, mid, year) values (16, 1, 7, 8, 1970);
+INSERT INTO S_AS (uid, sid, did, mid, year) values (17, 14, 6, 9, 1980);
+INSERT INTO S_AS (uid, sid, did, mid, year) values (18, 5, 5, 10, 1984);
+INSERT INTO S_AS (uid, sid, did, mid, year) values (19, 13, 4, 11, 1991);
+INSERT INTO S_AS (uid, sid, did, mid, year) values (20, 6, 3, 12, 1995);
+INSERT INTO S_AS (uid, sid, did, mid, year) values (21, 1, 2, 13, 1997);
+INSERT INTO S_AS (uid, sid, did, mid, year) values (22, 14, 1, 14, 1998);
+
+
+INSERT INTO CC_AS (uid, ccid) values (1, 16);
+INSERT INTO CC_AS (uid, ccid) values (2, 15);
+INSERT INTO CC_AS (uid, ccid) values (3, 14);
+INSERT INTO CC_AS (uid, ccid) values (4, 13);
+INSERT INTO CC_AS (uid, ccid) values (5, 12);
+INSERT INTO CC_AS (uid, ccid) values (6, 11);
+INSERT INTO CC_AS (uid, ccid) values (7, 10);
+INSERT INTO CC_AS (uid, ccid) values (8, 9);
+INSERT INTO CC_AS (uid, ccid) values (9, 8);
+INSERT INTO CC_AS (uid, ccid) values (10, 7);
+INSERT INTO CC_AS (uid, ccid) values (11, 6);
+INSERT INTO CC_AS (uid, ccid) values (12, 5);
+INSERT INTO CC_AS (uid, ccid) values (13, 4);
+INSERT INTO CC_AS (uid, ccid) values (14, 3);
+INSERT INTO CC_AS (uid, ccid) values (15, 2);
+INSERT INTO CC_AS (uid, ccid) values (16, 1);
+INSERT INTO CC_AS (uid, ccid) values (17, 14);
+INSERT INTO CC_AS (uid, ccid) values (18, 5);
+INSERT INTO CC_AS (uid, ccid) values (19, 13);
+INSERT INTO CC_AS (uid, ccid) values (20, 6);
+INSERT INTO CC_AS (uid, ccid) values (21, 1);
+INSERT INTO CC_AS (uid, ccid) values (22, 16);
+
+
+
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+ 
