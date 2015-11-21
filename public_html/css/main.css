@@ -1,0 +1,61 @@
+﻿.centered {
+
+}
+
+.headerBackground {
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/workTable.jpg') no-repeat;
+	width: 100%;
+	display: table;
+	background-size: cover;
+}
+
+.icon, .title {
+	margin-bottom: 13%;
+}
+
+.icon img{
+	width: 40px;
+	padding: 3px;
+}
+
+.searchBar {
+	border-bottom: 2px #e5d9b9 solid;
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+.search {
+	border: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: none;
+}
+.searchIcon{
+	color: #e5d9b9 ;
+	font-size: 14pt;
+}
+
+.navi {
+	
+	height: 50px;
+}
+
+h1, h2, a {
+	color: #e5d9b9;
+}
+
+a:hover, a:active {
+	color: #013334;
+}
+
+.mainNav {
+	background-color: #006665;
+	margin: 0px;
+	padding-bottom: 10px;
+}
+
+
+
+
+
