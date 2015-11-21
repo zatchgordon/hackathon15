@@ -39,7 +39,7 @@ body  {
 	margin:0;
 }
 
-.headerBackground, headerBackgroundAbout {
+.headerBackground, .headerBackgroundAbout {
 	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/workTable.jpg') no-repeat;
 	width: 100%;
 	display: table;

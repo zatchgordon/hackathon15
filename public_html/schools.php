@@ -14,14 +14,15 @@
 
 	$lastLetter = '';
 	$currentLetter = '';
-
+	echo '<section class="row" style="width: 50%; margin-left: auto; margin-right: auto;">
+	<div class="col-xs-12">';
 
 	while ($row = $stmt->fetch(PDO::FETCH_ASSOC)){
 			$currentLetter = ucfirst(substr($row['sname'], 0, 1));
 
 			if ($currentLetter != $lastLetter){
 			?>
-				<div class="row">
+				<div class="row" >
 					<div class="col-xs-12">
 						<h3>
 							<?php
@@ -55,5 +56,5 @@
 
 
 ?>
-
+</div>
 	</section>

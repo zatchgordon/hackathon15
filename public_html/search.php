@@ -54,7 +54,7 @@
 									</div>
 								</div>
 							</div>	
-
+								<br class='visible-sm visible-xs'><br class='visible-sm visible-xs'>
 
 
 						<?php

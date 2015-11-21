@@ -8,7 +8,8 @@
 
 	$lastLetter = '';
 	$currentLetter = '';
-
+	echo '<section class="row" style="width: 50%; margin-left: auto; margin-right: auto;">
+	<div class="col-xs-12">';
 
 	while ($row = $stmt->fetch(PDO::FETCH_ASSOC)){
 			$currentLetter = ucfirst(substr($row['mname'], 0, 1));
@@ -50,3 +51,5 @@
 
 
 ?>
+</div>
+	</section>
