@@ -3,17 +3,50 @@
 ?>
 <html>
 	<head>
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+		<script src="js/jquery.js" ></script>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
 
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
 
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
-
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="js/bootstrap.min.js" ></script>
+		<link rel="stylesheet" href="css/main.css">
 
 	</head>
 
 	<body>
+
+		<div class="row navi">
+			<a href="schools.php">
+				<div class="col-md-3 text-center mainNav">
+					<p>College</p>
+				</div>
+			</a>
+			<a href="majors.php">
+				<div class="col-md-3 text-center mainNav">
+					<p>Majors</p>
+				</div>
+			</a>
+			<a href="about.html">
+				<div class="col-md-3 text-center mainNav">
+					<p>About</p>
+				</div>
+			</a>
+				<div class="col-md-3 mainNav">
+						<div class="row" style="padding-top:9px;">
+										<div class="col-xs-3">
+							<span class="glyphicon glyphicon-search searchIcon"></span>
+						</div>
+						<div class="col-xs-9 col-xs-pull-1 searchBar">
+						<input type="text" class="search" >
+						</div>
+
+						</div>
+
+				</div>
+
+
+		</div>
 
