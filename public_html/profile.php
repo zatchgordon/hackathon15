@@ -45,7 +45,6 @@
 				<?php echo '<img src="images/'.$id.'.jpg" class="img-circle profilePics pull-right">'; ?>
 			</div>
 			<div class="col-xs-6">
-				<br>
 				<div class="row">
 					<div class="col-xs-12">
 						<h3>
