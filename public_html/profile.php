@@ -92,7 +92,9 @@
 
 		<div class="row">
 			<div class="col-xs-12 pull-right text-center">
+				<p>
 					<?php echo $about?>
+				</p>
 			</div>	
 
 		</div>
